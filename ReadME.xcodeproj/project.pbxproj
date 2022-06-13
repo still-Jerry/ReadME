@@ -11,6 +11,10 @@
 		27C9CBF3285734580015D711 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CBF2285734580015D711 /* ContentView.swift */; };
 		27C9CBF52857345A0015D711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C9CBF42857345A0015D711 /* Assets.xcassets */; };
 		27C9CBF82857345A0015D711 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C9CBF72857345A0015D711 /* Preview Assets.xcassets */; };
+		27C9CBFF285737840015D711 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CBFE285737840015D711 /* Book.swift */; };
+		27C9CC02285739550015D711 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CC01285739550015D711 /* BookView.swift */; };
+		27C9CC042857498B0015D711 /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CC032857498A0015D711 /* Library.swift */; };
+		27C9CC0628574C3D0015D711 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C9CC0528574C3D0015D711 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		27C9CBF2285734580015D711 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		27C9CBF42857345A0015D711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27C9CBF72857345A0015D711 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27C9CBFE285737840015D711 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		27C9CC01285739550015D711 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
+		27C9CC032857498A0015D711 /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Library.swift; path = "../../video-yssa-materials-versions-3.0/06-lists/Starter/ReadMe/ReadMe/Library.swift"; sourceTree = "<group>"; };
+		27C9CC0528574C3D0015D711 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		27C9CBEF285734580015D711 /* ReadME */ = {
 			isa = PBXGroup;
 			children = (
+				27C9CBFE285737840015D711 /* Book.swift */,
+				27C9CC032857498A0015D711 /* Library.swift */,
 				27C9CBF0285734580015D711 /* ReadMEApp.swift */,
-				27C9CBF2285734580015D711 /* ContentView.swift */,
+				27C9CC002857392E0015D711 /* Views */,
 				27C9CBF42857345A0015D711 /* Assets.xcassets */,
 				27C9CBF62857345A0015D711 /* Preview Content */,
 			);
@@ -65,6 +75,16 @@
 				27C9CBF72857345A0015D711 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27C9CC002857392E0015D711 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27C9CC01285739550015D711 /* BookView.swift */,
+				27C9CBF2285734580015D711 /* ContentView.swift */,
+				27C9CC0528574C3D0015D711 /* DetailView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C9CBF3285734580015D711 /* ContentView.swift in Sources */,
+				27C9CC0628574C3D0015D711 /* DetailView.swift in Sources */,
 				27C9CBF1285734580015D711 /* ReadMEApp.swift in Sources */,
+				27C9CC042857498B0015D711 /* Library.swift in Sources */,
+				27C9CBFF285737840015D711 /* Book.swift in Sources */,
+				27C9CC02285739550015D711 /* BookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
